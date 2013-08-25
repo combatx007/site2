@@ -1,2 +1,0 @@
-dmitxe_blog:
-    resource: "@SmartBlogBundle/Resources/config/routing.yml"

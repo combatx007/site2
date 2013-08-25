@@ -1,9 +1,0 @@
-parameters:
-    dmitxe_blog.listener.article_author.class: SmartCore\Bundle\BlogBundle\EventListener\ArticleAuthorListener
-
-services:
-    dmitxe_blog.listener.article_author:
-        class: %dmitxe_blog.listener.article_author.class%
-        arguments: [@security.context, @logger]
-        tags:
-            - { name: kernel.event_subscriber }

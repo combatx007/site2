@@ -53,7 +53,7 @@ class CategoryController extends Controller
         /** @var \Doctrine\ORM\EntityManager $em */
         $em = $this->getDoctrine()->getManager();
 
-        $categoriesRepo = $em->getRepository('DmitxeBlogBundle:Category'); // @todo прокидывать имя класса категорий.
+        $categoriesRepo = $em->getRepository('TDTBlogBundle:Category'); // @todo прокидывать имя класса категорий.
 
         $requestedCategories = [];
         $parent = null;

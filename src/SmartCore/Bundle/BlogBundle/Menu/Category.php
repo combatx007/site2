@@ -12,7 +12,7 @@ class Category extends ContainerAware
     /**
      * @var string
      */
-    protected $categoryCalass = 'DmitxeBlogBundle:Category'; // @todo внедрение имени класса категорий.
+    protected $categoryCalass = 'TDTBlogBundle:Category'; // @todo внедрение имени класса категорий.
 
     /**
      * @param FactoryInterface $factory

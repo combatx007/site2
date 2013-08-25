@@ -1,0 +1,15 @@
+tdt_site_index:
+    path: /
+    defaults: { _controller: TDTSiteBundle:Page:index }
+
+tdt_site_admin:
+    path: /admin/
+    defaults: { _controller: TDTSiteBundle:Admin:index }
+
+tdt_site_about:
+    path: /about/
+    defaults: { _controller: TDTSiteBundle:Page:about }
+
+tdt_site_contacts:
+    path: /contacts/
+    defaults: { _controller: TDTSiteBundle:Page:contacts }

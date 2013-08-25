@@ -1,8 +1,0 @@
-{% extends '@DmitxeSite/layout.html.twig' %}
-
-{% block html_head_title %} {{ 'Gallery'|trans }} &raquo; {{ parent() }} {% endblock html_head_title %}
-
-{% block content %}
-    {{ parent() }}
-    {% block smart_gallery_content %}{% endblock %}
-{% endblock %}

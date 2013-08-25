@@ -42,14 +42,14 @@ class AppKernel extends Kernel
             new FOS\RestBundle\FOSRestBundle(),
             new FOS\CommentBundle\FOSCommentBundle(),
 
-            new Dmitxe\SiteBundle\DmitxeSiteBundle(),
-            new Dmitxe\UserBundle\DmitxeUserBundle(),
-            new Dmitxe\BlogBundle\DmitxeBlogBundle(),
-            new Dmitxe\FixturesBundle\DmitxeFixturesBundle(),
-            new Dmitxe\DemoBundle\DmitxeDemoBundle(),
-            new Dmitxe\NewsBundle\DmitxeNewsBundle(),
-            new Dmitxe\GalleryBundle\DmitxeGalleryBundle(),
-            new Dmitxe\CommentBundle\DmitxeCommentBundle(),
+            new TDT\SiteBundle\TDTSiteBundle(),
+            new TDT\UserBundle\TDTUserBundle(),
+            new TDT\BlogBundle\TDTBlogBundle(),
+            new TDT\FixturesBundle\TDTFixturesBundle(),
+            new TDT\DemoBundle\TDTDemoBundle(),
+            new TDT\NewsBundle\TDTNewsBundle(),
+            new TDT\GalleryBundle\TDTGalleryBundle(),
+            new TDT\CommentBundle\TDTCommentBundle(),
         );
 
         if (in_array($this->getEnvironment(), ['dev'])) {

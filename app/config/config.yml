@@ -72,7 +72,7 @@ swiftmailer:
 
 knp_menu:
     twig:
-        template: DmitxeSiteBundle:Menu:knp_menu.html.twig
+        template: TDTSiteBundle:Menu:knp_menu.html.twig
 
 liip_doctrine_cache:
     namespaces:
@@ -92,8 +92,8 @@ fos_comment:
     acl: true
     class:
         model:
-            comment: Dmitxe\CommentBundle\Entity\Comment
-            thread: Dmitxe\CommentBundle\Entity\Thread
+            comment: TDT\CommentBundle\Entity\Comment
+            thread: TDT\CommentBundle\Entity\Thread
     service:
         acl:
             thread:  fos_comment.acl.thread.roles
@@ -123,9 +123,9 @@ fos_comment:
 fos_user:
     db_driver: orm
     firewall_name: main
-    user_class: Dmitxe\UserBundle\Entity\User
+    user_class: TDT\UserBundle\Entity\User
     group:
-        group_class: Dmitxe\UserBundle\Entity\Group
+        group_class: TDT\UserBundle\Entity\Group
 
 stfalcon_tinymce:
     include_jquery: false
@@ -192,9 +192,9 @@ vich_uploader:
             upload_destination: %kernel.root_dir%/../web/images/blog
 
 smart_blog:
-    article_class: Dmitxe\BlogBundle\Entity\Article
-    tag_class: Dmitxe\BlogBundle\Entity\Tag
-    category_class: Dmitxe\BlogBundle\Entity\Category
+    article_class: TDT\BlogBundle\Entity\Article
+    tag_class: TDT\BlogBundle\Entity\Tag
+    category_class: TDT\BlogBundle\Entity\Category
     items_per_page: 5
 
 services:
